@@ -1,0 +1,9 @@
+CRITICAL - 2022-06-19 13:05:29 --> syntax error, unexpected end of file, expecting "elseif" or "else" or "endif"
+#0 C:\xampp\htdocs\Haberles\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('back/carrito/pa...', Array, true)
+#2 C:\xampp\htdocs\Haberles\app\Controllers\Carrito_controller.php(50): view('back/carrito/pa...', Array)
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Carrito_controller->panel_carrito()
+#4 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_controller))
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

@@ -1,0 +1,296 @@
+CRITICAL - 2022-06-01 09:30:51 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\Haberles\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(41): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->insertar()
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#4 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-01 09:30:56 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\Haberles\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(41): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->insertar()
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#4 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-01 09:31:11 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\Haberles\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(41): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->insertar()
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#4 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-01 09:36:04 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\Haberles\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(41): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->insertar()
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#4 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-01 09:36:18 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\Haberles\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(41): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->insertar()
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#4 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-01 09:40:49 --> Undefined variable: img_nueva
+#0 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 40, Array)
+#1 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->insertar()
+#2 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-01 09:41:29 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\Haberles\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(41): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->insertar()
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#4 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-01 09:49:40 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\Haberles\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(41): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->insertar()
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#4 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-01 09:49:47 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\Haberles\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(41): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->insertar()
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#4 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-01 09:52:23 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\Haberles\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(41): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->insertar()
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#4 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-01 10:09:07 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\Haberles\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(41): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->insertar()
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#4 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-01 11:42:49 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\Haberles\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(41): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->insertar()
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#4 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-01 18:44:22 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\Haberles\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(41): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->insertar()
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#4 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-01 18:45:17 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\Haberles\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(41): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->insertar()
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#4 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-01 18:48:17 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\Haberles\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(41): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->insertar()
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#4 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-01 18:48:40 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\Haberles\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(41): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->insertar()
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#4 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-01 18:49:58 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\Haberles\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(41): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->insertar()
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#4 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-01 19:05:14 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\Haberles\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(41): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->insertar()
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#4 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-01 19:06:31 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\Haberles\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(41): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->insertar()
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#4 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-01 20:05:14 --> Undefined variable: dato
+#0 C:\xampp\htdocs\Haberles\app\Views\back\productos\nuevo.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 83, Array)
+#1 C:\xampp\htdocs\Haberles\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Haberles\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('back/productos/...', Array, true)
+#4 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(32): view('back/productos/...', Array)
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->nuevo()
+#6 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#7 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-01 20:06:54 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+#0 C:\xampp\htdocs\Haberles\system\BaseModel.php(963): CodeIgniter\Model->doDelete(NULL, false)
+#1 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(96): CodeIgniter\BaseModel->delete(NULL)
+#2 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->eliminar()
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#4 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-01 20:07:10 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+#0 C:\xampp\htdocs\Haberles\system\BaseModel.php(963): CodeIgniter\Model->doDelete(NULL, false)
+#1 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(96): CodeIgniter\BaseModel->delete(NULL)
+#2 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->eliminar()
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#4 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-01 20:25:46 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+#0 C:\xampp\htdocs\Haberles\system\BaseModel.php(963): CodeIgniter\Model->doDelete(NULL, false)
+#1 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(96): CodeIgniter\BaseModel->delete(NULL)
+#2 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->eliminar()
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#4 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-01 20:26:35 --> Undefined variable: categoria
+#0 C:\xampp\htdocs\Haberles\app\Views\back\productos\nuevo.php(95): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 95, Array)
+#1 C:\xampp\htdocs\Haberles\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Haberles\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('back/productos/...', Array, true)
+#4 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(32): view('back/productos/...', Array)
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->nuevo()
+#6 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#7 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-01 20:26:36 --> Undefined variable: categoria
+#0 C:\xampp\htdocs\Haberles\app\Views\back\productos\nuevo.php(95): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 95, Array)
+#1 C:\xampp\htdocs\Haberles\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Haberles\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('back/productos/...', Array, true)
+#4 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(32): view('back/productos/...', Array)
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->nuevo()
+#6 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#7 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-01 20:26:36 --> Undefined variable: categoria
+#0 C:\xampp\htdocs\Haberles\app\Views\back\productos\nuevo.php(95): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 95, Array)
+#1 C:\xampp\htdocs\Haberles\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Haberles\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('back/productos/...', Array, true)
+#4 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(32): view('back/productos/...', Array)
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->nuevo()
+#6 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#7 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-01 20:38:46 --> Undefined variable: categoria
+#0 C:\xampp\htdocs\Haberles\app\Views\back\productos\nuevo.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 78, Array)
+#1 C:\xampp\htdocs\Haberles\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Haberles\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('back/productos/...', Array, true)
+#4 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(32): view('back/productos/...', Array)
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->nuevo()
+#6 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#7 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-01 20:39:27 --> Undefined variable: categoria
+#0 C:\xampp\htdocs\Haberles\app\Views\back\productos\nuevo.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 79, Array)
+#1 C:\xampp\htdocs\Haberles\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Haberles\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('back/productos/...', Array, true)
+#4 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(32): view('back/productos/...', Array)
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->nuevo()
+#6 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#7 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-01 20:39:27 --> Undefined variable: categoria
+#0 C:\xampp\htdocs\Haberles\app\Views\back\productos\nuevo.php(79): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 79, Array)
+#1 C:\xampp\htdocs\Haberles\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Haberles\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('back/productos/...', Array, true)
+#4 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(32): view('back/productos/...', Array)
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->nuevo()
+#6 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#7 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-01 20:41:05 --> Undefined variable: categoria
+#0 C:\xampp\htdocs\Haberles\app\Views\back\productos\nuevo.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 78, Array)
+#1 C:\xampp\htdocs\Haberles\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Haberles\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('back/productos/...', Array, true)
+#4 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(32): view('back/productos/...', Array)
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->nuevo()
+#6 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#7 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-01 20:41:05 --> Undefined variable: categoria
+#0 C:\xampp\htdocs\Haberles\app\Views\back\productos\nuevo.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 78, Array)
+#1 C:\xampp\htdocs\Haberles\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Haberles\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('back/productos/...', Array, true)
+#4 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(32): view('back/productos/...', Array)
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->nuevo()
+#6 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#7 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-01 20:41:05 --> Undefined variable: categoria
+#0 C:\xampp\htdocs\Haberles\app\Views\back\productos\nuevo.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 78, Array)
+#1 C:\xampp\htdocs\Haberles\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Haberles\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('back/productos/...', Array, true)
+#4 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(32): view('back/productos/...', Array)
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->nuevo()
+#6 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#7 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-01 20:41:05 --> Undefined variable: categoria
+#0 C:\xampp\htdocs\Haberles\app\Views\back\productos\nuevo.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 78, Array)
+#1 C:\xampp\htdocs\Haberles\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Haberles\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('back/productos/...', Array, true)
+#4 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(32): view('back/productos/...', Array)
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->nuevo()
+#6 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#7 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

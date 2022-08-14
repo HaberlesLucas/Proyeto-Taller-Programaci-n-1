@@ -1,0 +1,768 @@
+CRITICAL - 2022-05-29 09:47:13 --> Undefined variable: totalTime
+#0 C:\xampp\htdocs\Haberles\system\Debug\Toolbar\Views\toolbar.tpl.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 40, Array)
+#1 C:\xampp\htdocs\Haberles\system\Debug\Toolbar.php(501): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Haberles\system\Debug\Toolbar.php(464): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 C:\xampp\htdocs\Haberles\app\Config\Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#4 C:\xampp\htdocs\Haberles\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(308): CodeIgniter\Events\Events::trigger('pre_system')
+#6 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 11:06:21 --> Undefined index: password_usuario
+#0 C:\xampp\htdocs\Haberles\app\Controllers\Usuario_controller.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Usuario_controller->registro()
+#2 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario_controller))
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-29 11:45:00 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Haberles\app\Views\back\usuario\editar.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 6, Array)
+#1 C:\xampp\htdocs\Haberles\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Haberles\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('back/usuario/ed...', Array, true)
+#4 C:\xampp\htdocs\Haberles\app\Controllers\Usuario_controller.php(122): view('back/usuario/ed...', Array)
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Usuario_controller->editar()
+#6 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario_controller))
+#7 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-29 11:45:02 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+#0 C:\xampp\htdocs\Haberles\system\BaseModel.php(963): CodeIgniter\Model->doDelete(NULL, false)
+#1 C:\xampp\htdocs\Haberles\app\Controllers\Usuario_controller.php(97): CodeIgniter\BaseModel->delete(NULL)
+#2 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Usuario_controller->eliminar()
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario_controller))
+#4 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-29 12:01:22 --> Invalid file: back/usuario/eliminados_user.php
+#0 C:\xampp\htdocs\Haberles\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('back/usuario/el...')
+#1 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('back/usuario/el...', Array, true)
+#2 C:\xampp\htdocs\Haberles\app\Controllers\Usuario_controller.php(132): view('back/usuario/el...')
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Usuario_controller->eliminados_user()
+#4 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario_controller))
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 12:19:41 --> Invalid file: back/usuario/eliminados.php
+#0 C:\xampp\htdocs\Haberles\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('back/usuario/el...')
+#1 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('back/usuario/el...', Array, true)
+#2 C:\xampp\htdocs\Haberles\app\Controllers\Usuario_controller.php(132): view('back/usuario/el...')
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Usuario_controller->eliminados_user()
+#4 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario_controller))
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 12:19:41 --> Invalid file: back/usuario/eliminados.php
+#0 C:\xampp\htdocs\Haberles\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('back/usuario/el...')
+#1 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('back/usuario/el...', Array, true)
+#2 C:\xampp\htdocs\Haberles\app\Controllers\Usuario_controller.php(132): view('back/usuario/el...')
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Usuario_controller->eliminados_user()
+#4 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario_controller))
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 12:19:41 --> Invalid file: back/usuario/eliminados.php
+#0 C:\xampp\htdocs\Haberles\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('back/usuario/el...')
+#1 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('back/usuario/el...', Array, true)
+#2 C:\xampp\htdocs\Haberles\app\Controllers\Usuario_controller.php(132): view('back/usuario/el...')
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Usuario_controller->eliminados_user()
+#4 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario_controller))
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 12:19:41 --> Invalid file: back/usuario/eliminados.php
+#0 C:\xampp\htdocs\Haberles\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('back/usuario/el...')
+#1 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('back/usuario/el...', Array, true)
+#2 C:\xampp\htdocs\Haberles\app\Controllers\Usuario_controller.php(132): view('back/usuario/el...')
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Usuario_controller->eliminados_user()
+#4 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario_controller))
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 12:20:43 --> Invalid file: back/usuario/eliminados.php
+#0 C:\xampp\htdocs\Haberles\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('back/usuario/el...')
+#1 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('back/usuario/el...', Array, true)
+#2 C:\xampp\htdocs\Haberles\app\Controllers\Usuario_controller.php(132): view('back/usuario/el...')
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Usuario_controller->eliminados_user()
+#4 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario_controller))
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 12:20:44 --> Invalid file: back/usuario/eliminados.php
+#0 C:\xampp\htdocs\Haberles\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('back/usuario/el...')
+#1 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('back/usuario/el...', Array, true)
+#2 C:\xampp\htdocs\Haberles\app\Controllers\Usuario_controller.php(132): view('back/usuario/el...')
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Usuario_controller->eliminados_user()
+#4 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario_controller))
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 12:20:44 --> Invalid file: back/usuario/eliminados.php
+#0 C:\xampp\htdocs\Haberles\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('back/usuario/el...')
+#1 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('back/usuario/el...', Array, true)
+#2 C:\xampp\htdocs\Haberles\app\Controllers\Usuario_controller.php(132): view('back/usuario/el...')
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Usuario_controller->eliminados_user()
+#4 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario_controller))
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 12:20:44 --> Invalid file: back/usuario/eliminados.php
+#0 C:\xampp\htdocs\Haberles\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('back/usuario/el...')
+#1 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('back/usuario/el...', Array, true)
+#2 C:\xampp\htdocs\Haberles\app\Controllers\Usuario_controller.php(132): view('back/usuario/el...')
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Usuario_controller->eliminados_user()
+#4 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario_controller))
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 12:20:44 --> Invalid file: back/usuario/eliminados.php
+#0 C:\xampp\htdocs\Haberles\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('back/usuario/el...')
+#1 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('back/usuario/el...', Array, true)
+#2 C:\xampp\htdocs\Haberles\app\Controllers\Usuario_controller.php(132): view('back/usuario/el...')
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Usuario_controller->eliminados_user()
+#4 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario_controller))
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 12:20:48 --> Invalid file: back/usuario/eliminados.php
+#0 C:\xampp\htdocs\Haberles\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('back/usuario/el...')
+#1 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('back/usuario/el...', Array, true)
+#2 C:\xampp\htdocs\Haberles\app\Controllers\Usuario_controller.php(132): view('back/usuario/el...')
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Usuario_controller->eliminados_user()
+#4 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario_controller))
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 12:21:10 --> Invalid file: back/usuario/eliminados.php
+#0 C:\xampp\htdocs\Haberles\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('back/usuario/el...')
+#1 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('back/usuario/el...', Array, true)
+#2 C:\xampp\htdocs\Haberles\app\Controllers\Usuario_controller.php(132): view('back/usuario/el...')
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Usuario_controller->eliminados_user()
+#4 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario_controller))
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 12:21:19 --> Invalid file: back/usuario/eliminados.php
+#0 C:\xampp\htdocs\Haberles\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('back/usuario/el...')
+#1 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('back/usuario/el...', Array, true)
+#2 C:\xampp\htdocs\Haberles\app\Controllers\Usuario_controller.php(132): view('back/usuario/el...')
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Usuario_controller->eliminados_user()
+#4 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario_controller))
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 12:21:38 --> Invalid file: back/usuario/eliminados.php
+#0 C:\xampp\htdocs\Haberles\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('back/usuario/el...')
+#1 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('back/usuario/el...', Array, true)
+#2 C:\xampp\htdocs\Haberles\app\Controllers\Usuario_controller.php(132): view('back/usuario/el...')
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Usuario_controller->eliminados_user()
+#4 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario_controller))
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 12:21:42 --> Invalid file: back/usuario/eliminados.php
+#0 C:\xampp\htdocs\Haberles\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('back/usuario/el...')
+#1 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('back/usuario/el...', Array, true)
+#2 C:\xampp\htdocs\Haberles\app\Controllers\Usuario_controller.php(132): view('back/usuario/el...')
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Usuario_controller->eliminados_user()
+#4 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario_controller))
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 12:58:27 --> Undefined index: usario_usuario
+#0 C:\xampp\htdocs\Haberles\app\Views\back\usuario\panel_usuarios.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 27, Array)
+#1 C:\xampp\htdocs\Haberles\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Haberles\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('back/usuario/pa...', Array, true)
+#4 C:\xampp\htdocs\Haberles\app\Controllers\Usuario_controller.php(14): view('back/usuario/pa...')
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Usuario_controller->panel_usuarios()
+#6 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario_controller))
+#7 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-29 12:58:30 --> Undefined index: usario_usuario
+#0 C:\xampp\htdocs\Haberles\app\Views\back\usuario\panel_usuarios.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 27, Array)
+#1 C:\xampp\htdocs\Haberles\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Haberles\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('back/usuario/pa...', Array, true)
+#4 C:\xampp\htdocs\Haberles\app\Controllers\Usuario_controller.php(14): view('back/usuario/pa...')
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Usuario_controller->panel_usuarios()
+#6 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario_controller))
+#7 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-29 14:47:44 --> syntax error, unexpected 'if' (T_IF), expecting ':'
+#0 C:\xampp\htdocs\Haberles\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('nav_encabezado', Array, true)
+#2 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(31): view('nav_encabezado')
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->nuevo()
+#4 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 14:47:49 --> syntax error, unexpected 'if' (T_IF), expecting ':'
+#0 C:\xampp\htdocs\Haberles\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('nav_encabezado', Array, true)
+#2 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(12): view('nav_encabezado')
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->panel_productos()
+#4 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 14:48:26 --> syntax error, unexpected 'if' (T_IF), expecting ':'
+#0 C:\xampp\htdocs\Haberles\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('nav_encabezado', Array, true)
+#2 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(12): view('nav_encabezado')
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->panel_productos()
+#4 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 14:49:32 --> syntax error, unexpected 'if' (T_IF), expecting ':'
+#0 C:\xampp\htdocs\Haberles\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('nav_encabezado', Array, true)
+#2 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(12): view('nav_encabezado')
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->panel_productos()
+#4 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 14:49:33 --> syntax error, unexpected 'if' (T_IF), expecting ':'
+#0 C:\xampp\htdocs\Haberles\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('nav_encabezado', Array, true)
+#2 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(12): view('nav_encabezado')
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->panel_productos()
+#4 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 14:49:33 --> syntax error, unexpected 'if' (T_IF), expecting ':'
+#0 C:\xampp\htdocs\Haberles\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('nav_encabezado', Array, true)
+#2 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(12): view('nav_encabezado')
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->panel_productos()
+#4 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 14:49:33 --> syntax error, unexpected 'if' (T_IF), expecting ':'
+#0 C:\xampp\htdocs\Haberles\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('nav_encabezado', Array, true)
+#2 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(12): view('nav_encabezado')
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->panel_productos()
+#4 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 14:49:33 --> syntax error, unexpected 'if' (T_IF), expecting ':'
+#0 C:\xampp\htdocs\Haberles\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('nav_encabezado', Array, true)
+#2 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(12): view('nav_encabezado')
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->panel_productos()
+#4 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 14:49:33 --> syntax error, unexpected 'if' (T_IF), expecting ':'
+#0 C:\xampp\htdocs\Haberles\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('nav_encabezado', Array, true)
+#2 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(12): view('nav_encabezado')
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->panel_productos()
+#4 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 14:49:34 --> syntax error, unexpected 'if' (T_IF), expecting ':'
+#0 C:\xampp\htdocs\Haberles\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('nav_encabezado', Array, true)
+#2 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(12): view('nav_encabezado')
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->panel_productos()
+#4 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 14:49:37 --> syntax error, unexpected 'if' (T_IF), expecting ':'
+#0 C:\xampp\htdocs\Haberles\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('nav_encabezado', Array, true)
+#2 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(12): view('nav_encabezado')
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->panel_productos()
+#4 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 14:49:37 --> syntax error, unexpected 'if' (T_IF), expecting ':'
+#0 C:\xampp\htdocs\Haberles\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('nav_encabezado', Array, true)
+#2 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(12): view('nav_encabezado')
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->panel_productos()
+#4 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 14:49:37 --> syntax error, unexpected 'if' (T_IF), expecting ':'
+#0 C:\xampp\htdocs\Haberles\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('nav_encabezado', Array, true)
+#2 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(12): view('nav_encabezado')
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->panel_productos()
+#4 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 14:49:37 --> syntax error, unexpected 'if' (T_IF), expecting ':'
+#0 C:\xampp\htdocs\Haberles\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('nav_encabezado', Array, true)
+#2 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(12): view('nav_encabezado')
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->panel_productos()
+#4 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 14:49:37 --> syntax error, unexpected 'if' (T_IF), expecting ':'
+#0 C:\xampp\htdocs\Haberles\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('nav_encabezado', Array, true)
+#2 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(12): view('nav_encabezado')
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->panel_productos()
+#4 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 14:49:37 --> syntax error, unexpected 'if' (T_IF), expecting ':'
+#0 C:\xampp\htdocs\Haberles\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('nav_encabezado', Array, true)
+#2 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(12): view('nav_encabezado')
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->panel_productos()
+#4 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 14:49:37 --> syntax error, unexpected 'if' (T_IF), expecting ':'
+#0 C:\xampp\htdocs\Haberles\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('nav_encabezado', Array, true)
+#2 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(12): view('nav_encabezado')
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->panel_productos()
+#4 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 14:49:38 --> syntax error, unexpected 'if' (T_IF), expecting ':'
+#0 C:\xampp\htdocs\Haberles\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('nav_encabezado', Array, true)
+#2 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(12): view('nav_encabezado')
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->panel_productos()
+#4 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 14:49:41 --> syntax error, unexpected 'if' (T_IF), expecting ':'
+#0 C:\xampp\htdocs\Haberles\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('nav_encabezado', Array, true)
+#2 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(12): view('nav_encabezado')
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->panel_productos()
+#4 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 14:49:41 --> syntax error, unexpected 'if' (T_IF), expecting ':'
+#0 C:\xampp\htdocs\Haberles\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('nav_encabezado', Array, true)
+#2 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(12): view('nav_encabezado')
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->panel_productos()
+#4 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 14:49:41 --> syntax error, unexpected 'if' (T_IF), expecting ':'
+#0 C:\xampp\htdocs\Haberles\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('nav_encabezado', Array, true)
+#2 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(12): view('nav_encabezado')
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->panel_productos()
+#4 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 14:49:41 --> syntax error, unexpected 'if' (T_IF), expecting ':'
+#0 C:\xampp\htdocs\Haberles\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('nav_encabezado', Array, true)
+#2 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(12): view('nav_encabezado')
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->panel_productos()
+#4 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 14:49:41 --> syntax error, unexpected 'if' (T_IF), expecting ':'
+#0 C:\xampp\htdocs\Haberles\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('nav_encabezado', Array, true)
+#2 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(12): view('nav_encabezado')
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->panel_productos()
+#4 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 14:49:42 --> syntax error, unexpected 'if' (T_IF), expecting ':'
+#0 C:\xampp\htdocs\Haberles\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('nav_encabezado', Array, true)
+#2 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(12): view('nav_encabezado')
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->panel_productos()
+#4 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 14:49:42 --> syntax error, unexpected 'if' (T_IF), expecting ':'
+#0 C:\xampp\htdocs\Haberles\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('nav_encabezado', Array, true)
+#2 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(12): view('nav_encabezado')
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->panel_productos()
+#4 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 14:50:57 --> syntax error, unexpected 'if' (T_IF), expecting ':'
+#0 C:\xampp\htdocs\Haberles\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('nav_encabezado', Array, true)
+#2 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(12): view('nav_encabezado')
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->panel_productos()
+#4 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 14:50:57 --> syntax error, unexpected 'if' (T_IF), expecting ':'
+#0 C:\xampp\htdocs\Haberles\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('nav_encabezado', Array, true)
+#2 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(12): view('nav_encabezado')
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->panel_productos()
+#4 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 14:50:57 --> syntax error, unexpected 'if' (T_IF), expecting ':'
+#0 C:\xampp\htdocs\Haberles\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('nav_encabezado', Array, true)
+#2 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(12): view('nav_encabezado')
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->panel_productos()
+#4 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 14:50:58 --> syntax error, unexpected 'if' (T_IF), expecting ':'
+#0 C:\xampp\htdocs\Haberles\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('nav_encabezado', Array, true)
+#2 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(12): view('nav_encabezado')
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->panel_productos()
+#4 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 14:50:58 --> syntax error, unexpected 'if' (T_IF), expecting ':'
+#0 C:\xampp\htdocs\Haberles\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('nav_encabezado', Array, true)
+#2 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(12): view('nav_encabezado')
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->panel_productos()
+#4 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 14:50:58 --> syntax error, unexpected 'if' (T_IF), expecting ':'
+#0 C:\xampp\htdocs\Haberles\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('nav_encabezado', Array, true)
+#2 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(12): view('nav_encabezado')
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->panel_productos()
+#4 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 14:55:03 --> syntax error, unexpected 'if' (T_IF), expecting ':'
+#0 C:\xampp\htdocs\Haberles\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('nav_encabezado', Array, true)
+#2 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(12): view('nav_encabezado')
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->panel_productos()
+#4 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 14:55:03 --> syntax error, unexpected 'if' (T_IF), expecting ':'
+#0 C:\xampp\htdocs\Haberles\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('nav_encabezado', Array, true)
+#2 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(12): view('nav_encabezado')
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->panel_productos()
+#4 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 14:59:10 --> syntax error, unexpected 'if' (T_IF), expecting ':'
+#0 C:\xampp\htdocs\Haberles\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('nav_encabezado', Array, true)
+#2 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(12): view('nav_encabezado')
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->panel_productos()
+#4 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 14:59:11 --> syntax error, unexpected 'if' (T_IF), expecting ':'
+#0 C:\xampp\htdocs\Haberles\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('nav_encabezado', Array, true)
+#2 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(12): view('nav_encabezado')
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->panel_productos()
+#4 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 14:59:11 --> syntax error, unexpected 'if' (T_IF), expecting ':'
+#0 C:\xampp\htdocs\Haberles\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('nav_encabezado', Array, true)
+#2 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(12): view('nav_encabezado')
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->panel_productos()
+#4 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 14:59:11 --> syntax error, unexpected 'if' (T_IF), expecting ':'
+#0 C:\xampp\htdocs\Haberles\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('nav_encabezado', Array, true)
+#2 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(12): view('nav_encabezado')
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->panel_productos()
+#4 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 14:59:11 --> syntax error, unexpected 'if' (T_IF), expecting ':'
+#0 C:\xampp\htdocs\Haberles\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('nav_encabezado', Array, true)
+#2 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(12): view('nav_encabezado')
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->panel_productos()
+#4 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 14:59:12 --> syntax error, unexpected 'if' (T_IF), expecting ':'
+#0 C:\xampp\htdocs\Haberles\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('nav_encabezado', Array, true)
+#2 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(12): view('nav_encabezado')
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->panel_productos()
+#4 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 14:59:12 --> syntax error, unexpected 'if' (T_IF), expecting ':'
+#0 C:\xampp\htdocs\Haberles\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('nav_encabezado', Array, true)
+#2 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(12): view('nav_encabezado')
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->panel_productos()
+#4 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 15:07:41 --> syntax error, unexpected 'if' (T_IF), expecting ':'
+#0 C:\xampp\htdocs\Haberles\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('nav_encabezado', Array, true)
+#2 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(12): view('nav_encabezado')
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->panel_productos()
+#4 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 15:07:41 --> syntax error, unexpected 'if' (T_IF), expecting ':'
+#0 C:\xampp\htdocs\Haberles\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('nav_encabezado', Array, true)
+#2 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(12): view('nav_encabezado')
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->panel_productos()
+#4 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 15:07:41 --> syntax error, unexpected 'if' (T_IF), expecting ':'
+#0 C:\xampp\htdocs\Haberles\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('nav_encabezado', Array, true)
+#2 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(12): view('nav_encabezado')
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->panel_productos()
+#4 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 15:07:41 --> syntax error, unexpected 'if' (T_IF), expecting ':'
+#0 C:\xampp\htdocs\Haberles\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('nav_encabezado', Array, true)
+#2 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(12): view('nav_encabezado')
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->panel_productos()
+#4 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 15:07:41 --> syntax error, unexpected 'if' (T_IF), expecting ':'
+#0 C:\xampp\htdocs\Haberles\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('nav_encabezado', Array, true)
+#2 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(12): view('nav_encabezado')
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->panel_productos()
+#4 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 15:07:42 --> syntax error, unexpected 'if' (T_IF), expecting ':'
+#0 C:\xampp\htdocs\Haberles\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('nav_encabezado', Array, true)
+#2 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(12): view('nav_encabezado')
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->panel_productos()
+#4 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 15:07:42 --> syntax error, unexpected 'if' (T_IF), expecting ':'
+#0 C:\xampp\htdocs\Haberles\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('nav_encabezado', Array, true)
+#2 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(12): view('nav_encabezado')
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->panel_productos()
+#4 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 15:08:19 --> syntax error, unexpected 'if' (T_IF), expecting ':'
+#0 C:\xampp\htdocs\Haberles\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('nav_encabezado', Array, true)
+#2 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(12): view('nav_encabezado')
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->panel_productos()
+#4 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 15:08:20 --> syntax error, unexpected 'if' (T_IF), expecting ':'
+#0 C:\xampp\htdocs\Haberles\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('nav_encabezado', Array, true)
+#2 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(12): view('nav_encabezado')
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->panel_productos()
+#4 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 15:08:20 --> syntax error, unexpected 'if' (T_IF), expecting ':'
+#0 C:\xampp\htdocs\Haberles\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('nav_encabezado', Array, true)
+#2 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(12): view('nav_encabezado')
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->panel_productos()
+#4 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 15:08:20 --> syntax error, unexpected 'if' (T_IF), expecting ':'
+#0 C:\xampp\htdocs\Haberles\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('nav_encabezado', Array, true)
+#2 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(12): view('nav_encabezado')
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->panel_productos()
+#4 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 15:08:20 --> syntax error, unexpected 'if' (T_IF), expecting ':'
+#0 C:\xampp\htdocs\Haberles\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('nav_encabezado', Array, true)
+#2 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(12): view('nav_encabezado')
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->panel_productos()
+#4 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 15:08:20 --> syntax error, unexpected 'if' (T_IF), expecting ':'
+#0 C:\xampp\htdocs\Haberles\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('nav_encabezado', Array, true)
+#2 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(12): view('nav_encabezado')
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->panel_productos()
+#4 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 15:08:20 --> syntax error, unexpected 'if' (T_IF), expecting ':'
+#0 C:\xampp\htdocs\Haberles\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('nav_encabezado', Array, true)
+#2 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(12): view('nav_encabezado')
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->panel_productos()
+#4 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 15:08:55 --> syntax error, unexpected 'if' (T_IF), expecting ':'
+#0 C:\xampp\htdocs\Haberles\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('nav_encabezado', Array, true)
+#2 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(12): view('nav_encabezado')
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->panel_productos()
+#4 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 15:08:55 --> syntax error, unexpected 'if' (T_IF), expecting ':'
+#0 C:\xampp\htdocs\Haberles\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('nav_encabezado', Array, true)
+#2 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(12): view('nav_encabezado')
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->panel_productos()
+#4 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 15:08:55 --> syntax error, unexpected 'if' (T_IF), expecting ':'
+#0 C:\xampp\htdocs\Haberles\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('nav_encabezado', Array, true)
+#2 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(12): view('nav_encabezado')
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->panel_productos()
+#4 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 15:08:55 --> syntax error, unexpected 'if' (T_IF), expecting ':'
+#0 C:\xampp\htdocs\Haberles\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('nav_encabezado', Array, true)
+#2 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(12): view('nav_encabezado')
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->panel_productos()
+#4 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 15:08:55 --> syntax error, unexpected 'if' (T_IF), expecting ':'
+#0 C:\xampp\htdocs\Haberles\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('nav_encabezado', Array, true)
+#2 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(12): view('nav_encabezado')
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->panel_productos()
+#4 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 15:08:55 --> syntax error, unexpected 'if' (T_IF), expecting ':'
+#0 C:\xampp\htdocs\Haberles\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('nav_encabezado', Array, true)
+#2 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(12): view('nav_encabezado')
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->panel_productos()
+#4 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 15:08:55 --> syntax error, unexpected 'if' (T_IF), expecting ':'
+#0 C:\xampp\htdocs\Haberles\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('nav_encabezado', Array, true)
+#2 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(12): view('nav_encabezado')
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->panel_productos()
+#4 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 15:08:56 --> syntax error, unexpected 'if' (T_IF), expecting ':'
+#0 C:\xampp\htdocs\Haberles\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('nav_encabezado', Array, true)
+#2 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(12): view('nav_encabezado')
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->panel_productos()
+#4 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 15:11:44 --> syntax error, unexpected 'if' (T_IF), expecting ':'
+#0 C:\xampp\htdocs\Haberles\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('nav_encabezado', Array, true)
+#2 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(12): view('nav_encabezado')
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->panel_productos()
+#4 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-29 18:48:06 --> syntax error, unexpected 'if' (T_IF), expecting ':'
+#0 C:\xampp\htdocs\Haberles\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('nav_encabezado', Array, true)
+#2 C:\xampp\htdocs\Haberles\app\Controllers\Home.php(11): view('nav_encabezado')
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

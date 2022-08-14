@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Links de Printemps</title>
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+        integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous" />
+    <link rel="icon" href="https://printemps.com.ar/media/favicon/default/favicon.png" type="image/x-icon" />
+</head>
+
+<body>
+
+    <style>
+        model-viewer {
+            width: 600px;
+            height: 600px;
+            margin: 0px auto;
+        }
+
+        body {
+            background-color: #f4f4f4;
+        }
+    </style>
+
+    <div class="container">
+        <div class="row top50">
+            <div class="col-md-2"></div>
+            <!--tuyo -->
+            <div class="col-md-8 centrado">
+
+                <!-- <model-viewer bounds="tight" enable-pan
+                    src="https://printemps.nyc3.cdn.digitaloceanspaces.com/images/modelado3d/DamagedHelmet.glb" ar
+                    ar-modes="scene-viewer webxr quick-look" camera-controls environment-image="neutral"
+                    poster="poster.webp" shadow-intensity="0" auto-rotate>
+
+                    <div class="progress-bar hide" slot="progress-bar">
+                        <div class="update-bar"></div>
+                    </div>
+                    <button slot="ar-button" id="ar-button">
+                        Clic para ver en mi espacio
+                    </button>
+                </model-viewer> -->
+            
+
+                <model-viewer src="../../model/Horse.glb" ar ar-modes="scene-viewer webxr quick-look" camera-controls poster="poster.webp"
+                    shadow-intensity="1" autoplay>
+                    <div class="progress-bar hide" slot="progress-bar">
+                        <div class="update-bar"></div>
+                    </div>
+                    <div id="ar-prompt">
+                        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+                    </div>
+                </model-viewer>
+            </div>
+
+        </div>
+        <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js%22%3E</script>
+</body>
+
+</html>

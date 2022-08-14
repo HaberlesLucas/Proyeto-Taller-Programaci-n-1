@@ -1,0 +1,733 @@
+ERROR - 2022-06-02 07:49:06 --> Error connecting to the database: MySQL server has gone away
+ERROR - 2022-06-02 07:49:06 --> Error connecting to the database: MySQL server has gone away
+ERROR - 2022-06-02 07:49:06 --> Error connecting to the database: MySQL server has gone away
+ERROR - 2022-06-02 07:49:06 --> Error connecting to the database: MySQL server has gone away
+ERROR - 2022-06-02 07:49:06 --> Error connecting to the database: MySQL server has gone away
+ERROR - 2022-06-02 07:49:06 --> Error connecting to the database: MySQL server has gone away
+CRITICAL - 2022-06-02 07:49:06 --> Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+#0 C:\xampp\htdocs\Haberles\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\Haberles\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\Haberles\app\Models\Usuario_model.php(43): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\Haberles\app\Controllers\Usuario_controller.php(63): App\Models\Usuario_model->validarUsuario('+64956', 'Haberles')
+#4 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Usuario_controller->login()
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario_controller))
+#6 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-02 07:49:06 --> Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+#0 C:\xampp\htdocs\Haberles\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\Haberles\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\Haberles\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\Haberles\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(148): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->catalogoProductos()
+#6 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#7 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-02 07:49:06 --> Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+#0 C:\xampp\htdocs\Haberles\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\Haberles\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\Haberles\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\Haberles\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(148): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->catalogoProductos()
+#6 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#7 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-02 07:49:06 --> Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+#0 C:\xampp\htdocs\Haberles\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\Haberles\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\Haberles\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\Haberles\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(148): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->catalogoProductos()
+#6 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#7 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-02 07:49:06 --> Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+#0 C:\xampp\htdocs\Haberles\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\Haberles\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\Haberles\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\Haberles\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(148): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->catalogoProductos()
+#6 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#7 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-02 07:49:06 --> Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+#0 C:\xampp\htdocs\Haberles\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\Haberles\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\Haberles\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\Haberles\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(148): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->catalogoProductos()
+#6 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#7 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-02 09:00:38 --> Undefined array key "categoria_producto"
+#0 C:\xampp\htdocs\Haberles\app\Views\back\productos\panel_productos.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\Haberles\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Haberles\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('back/productos/...', Array, true)
+#4 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(13): view('back/productos/...')
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->panel_productos()
+#6 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#7 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-02 09:05:12 --> Undefined array key "categoria_producto"
+#0 C:\xampp\htdocs\Haberles\app\Views\back\productos\panel_productos.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\Haberles\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Haberles\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('back/productos/...', Array, true)
+#4 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(13): view('back/productos/...')
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->panel_productos()
+#6 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#7 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-02 09:05:14 --> Undefined array key "categoria_producto"
+#0 C:\xampp\htdocs\Haberles\app\Views\back\productos\panel_productos.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\Haberles\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Haberles\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('back/productos/...', Array, true)
+#4 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(13): view('back/productos/...')
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->panel_productos()
+#6 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#7 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-02 09:05:22 --> Undefined array key "categoria_producto"
+#0 C:\xampp\htdocs\Haberles\app\Views\back\productos\panel_productos.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\Haberles\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Haberles\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('back/productos/...', Array, true)
+#4 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(13): view('back/productos/...')
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->panel_productos()
+#6 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#7 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-02 09:05:22 --> Undefined array key "categoria_producto"
+#0 C:\xampp\htdocs\Haberles\app\Views\back\productos\panel_productos.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\Haberles\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Haberles\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('back/productos/...', Array, true)
+#4 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(13): view('back/productos/...')
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->panel_productos()
+#6 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#7 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-02 09:05:22 --> Undefined array key "categoria_producto"
+#0 C:\xampp\htdocs\Haberles\app\Views\back\productos\panel_productos.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\Haberles\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Haberles\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('back/productos/...', Array, true)
+#4 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(13): view('back/productos/...')
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->panel_productos()
+#6 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#7 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-02 09:05:23 --> Undefined array key "categoria_producto"
+#0 C:\xampp\htdocs\Haberles\app\Views\back\productos\panel_productos.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\Haberles\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Haberles\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('back/productos/...', Array, true)
+#4 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(13): view('back/productos/...')
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->panel_productos()
+#6 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#7 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-02 09:06:16 --> Undefined array key "categoria_producto"
+#0 C:\xampp\htdocs\Haberles\app\Views\back\productos\panel_productos.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\Haberles\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Haberles\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('back/productos/...', Array, true)
+#4 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(13): view('back/productos/...')
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->panel_productos()
+#6 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#7 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-02 09:06:39 --> Undefined array key "categoria_producto"
+#0 C:\xampp\htdocs\Haberles\app\Views\back\productos\panel_productos.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\Haberles\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Haberles\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('back/productos/...', Array, true)
+#4 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(13): view('back/productos/...')
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->panel_productos()
+#6 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#7 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-02 09:06:42 --> Undefined array key "categoria_producto"
+#0 C:\xampp\htdocs\Haberles\app\Views\back\productos\panel_productos.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\Haberles\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Haberles\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('back/productos/...', Array, true)
+#4 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(13): view('back/productos/...')
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->panel_productos()
+#6 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#7 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-02 09:07:04 --> Undefined array key "categoria_producto"
+#0 C:\xampp\htdocs\Haberles\app\Views\back\productos\panel_productos.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\Haberles\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Haberles\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('back/productos/...', Array, true)
+#4 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(13): view('back/productos/...')
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->panel_productos()
+#6 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#7 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-02 09:07:04 --> Undefined array key "categoria_producto"
+#0 C:\xampp\htdocs\Haberles\app\Views\back\productos\panel_productos.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\Haberles\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Haberles\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('back/productos/...', Array, true)
+#4 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(13): view('back/productos/...')
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->panel_productos()
+#6 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#7 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-02 09:08:39 --> Undefined array key "categoria_producto"
+#0 C:\xampp\htdocs\Haberles\app\Views\back\productos\panel_productos.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\Haberles\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Haberles\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('back/productos/...', Array, true)
+#4 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(13): view('back/productos/...')
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->panel_productos()
+#6 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#7 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-02 09:08:39 --> Undefined array key "categoria_producto"
+#0 C:\xampp\htdocs\Haberles\app\Views\back\productos\panel_productos.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\Haberles\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Haberles\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('back/productos/...', Array, true)
+#4 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(13): view('back/productos/...')
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->panel_productos()
+#6 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#7 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-02 09:14:59 --> Undefined variable $categoria
+#0 C:\xampp\htdocs\Haberles\app\Views\back\productos\nuevo.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 77)
+#1 C:\xampp\htdocs\Haberles\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Haberles\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('back/productos/...', Array, true)
+#4 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(32): view('back/productos/...', Array)
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->nuevo()
+#6 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#7 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-02 09:15:01 --> Undefined array key "categoria_producto"
+#0 C:\xampp\htdocs\Haberles\app\Views\back\productos\eliminados.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 31)
+#1 C:\xampp\htdocs\Haberles\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Haberles\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('back/productos/...', Array, true)
+#4 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(135): view('back/productos/...')
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->eliminados()
+#6 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#7 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-02 09:15:02 --> Undefined variable $categoria
+#0 C:\xampp\htdocs\Haberles\app\Views\back\productos\nuevo.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 77)
+#1 C:\xampp\htdocs\Haberles\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Haberles\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('back/productos/...', Array, true)
+#4 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(32): view('back/productos/...', Array)
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->nuevo()
+#6 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#7 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-02 09:17:19 --> Undefined variable $dato_categoria
+#0 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 33)
+#1 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->nuevo()
+#2 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-02 09:18:22 --> Undefined variable $dato_categoria
+#0 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 33)
+#1 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->nuevo()
+#2 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-02 09:19:46 --> Undefined variable $dato_categoria
+#0 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 33)
+#1 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->nuevo()
+#2 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-02 09:19:51 --> Undefined variable $dato_categoria
+#0 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 33)
+#1 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->nuevo()
+#2 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-02 09:19:51 --> Undefined variable $dato_categoria
+#0 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 33)
+#1 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->nuevo()
+#2 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-02 09:19:52 --> Undefined variable $dato_categoria
+#0 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 33)
+#1 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->nuevo()
+#2 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-02 09:19:52 --> Undefined variable $dato_categoria
+#0 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 33)
+#1 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->nuevo()
+#2 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-02 09:19:52 --> Undefined variable $dato_categoria
+#0 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 33)
+#1 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->nuevo()
+#2 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-02 09:19:52 --> Undefined variable $dato_categoria
+#0 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 33)
+#1 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->nuevo()
+#2 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-02 09:20:30 --> Undefined variable $dato_categoria
+#0 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 33)
+#1 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->nuevo()
+#2 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-02 09:20:30 --> Undefined variable $dato_categoria
+#0 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 33)
+#1 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->nuevo()
+#2 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-02 09:20:30 --> Undefined variable $dato_categoria
+#0 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 33)
+#1 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->nuevo()
+#2 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-02 09:20:30 --> Undefined variable $dato_categoria
+#0 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 33)
+#1 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->nuevo()
+#2 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-02 09:20:31 --> Undefined variable $dato_categoria
+#0 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 33)
+#1 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->nuevo()
+#2 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-02 09:20:31 --> Undefined variable $dato_categoria
+#0 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 33)
+#1 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->nuevo()
+#2 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-02 09:20:31 --> Undefined variable $dato_categoria
+#0 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 33)
+#1 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->nuevo()
+#2 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-02 09:20:31 --> Undefined variable $dato_categoria
+#0 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 33)
+#1 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->nuevo()
+#2 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-02 09:20:43 --> Undefined variable $dato_categoria
+#0 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 32)
+#1 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->nuevo()
+#2 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-02 09:20:44 --> Undefined variable $dato_categoria
+#0 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 32)
+#1 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->nuevo()
+#2 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-02 09:20:44 --> Undefined variable $dato_categoria
+#0 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 32)
+#1 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->nuevo()
+#2 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-02 09:20:44 --> Undefined variable $dato_categoria
+#0 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 32)
+#1 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->nuevo()
+#2 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-02 09:20:44 --> Undefined variable $dato_categoria
+#0 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 32)
+#1 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->nuevo()
+#2 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-02 09:20:44 --> Undefined variable $dato_categoria
+#0 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 32)
+#1 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->nuevo()
+#2 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-02 09:21:09 --> Undefined variable $dato_categoria
+#0 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 32)
+#1 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->nuevo()
+#2 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-02 09:21:09 --> Undefined variable $dato_categoria
+#0 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 32)
+#1 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->nuevo()
+#2 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-02 09:21:10 --> Undefined variable $dato_categoria
+#0 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 32)
+#1 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->nuevo()
+#2 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-02 09:21:26 --> Undefined variable $dato_categoria
+#0 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 32)
+#1 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->nuevo()
+#2 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-02 09:21:27 --> Undefined variable $dato_categoria
+#0 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 32)
+#1 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->nuevo()
+#2 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-02 09:21:27 --> Undefined variable $dato_categoria
+#0 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 32)
+#1 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->nuevo()
+#2 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-02 09:21:27 --> Class "App\Controllers\Categoria_model" not found
+#0 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->nuevo()
+#1 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#2 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-02 09:21:27 --> Class "App\Controllers\Categoria_model" not found
+#0 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->nuevo()
+#1 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#2 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-02 09:21:27 --> Class "App\Controllers\Categoria_model" not found
+#0 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->nuevo()
+#1 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#2 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-02 09:21:27 --> Class "App\Controllers\Categoria_model" not found
+#0 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->nuevo()
+#1 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#2 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-02 09:21:27 --> Class "App\Controllers\Categoria_model" not found
+#0 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->nuevo()
+#1 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#2 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-02 09:21:28 --> Class "App\Controllers\Categoria_model" not found
+#0 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->nuevo()
+#1 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#2 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-02 09:21:28 --> Class "App\Controllers\Categoria_model" not found
+#0 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->nuevo()
+#1 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#2 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-02 09:26:36 --> Class "App\Controllers\Categoria_model" not found
+#0 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->nuevo()
+#1 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#2 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-02 09:26:38 --> Class "App\Controllers\Categoria_model" not found
+#0 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->nuevo()
+#1 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#2 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-02 09:26:38 --> Class "App\Controllers\Categoria_model" not found
+#0 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->nuevo()
+#1 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#2 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-02 09:26:38 --> Class "App\Controllers\Categoria_model" not found
+#0 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->nuevo()
+#1 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#2 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-02 09:26:39 --> Class "App\Controllers\Categoria_model" not found
+#0 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->nuevo()
+#1 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#2 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-02 09:26:39 --> Class "App\Controllers\Categoria_model" not found
+#0 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->nuevo()
+#1 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#2 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-02 09:26:44 --> Undefined array key "categoria_producto"
+#0 C:\xampp\htdocs\Haberles\app\Views\back\productos\eliminados.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 31)
+#1 C:\xampp\htdocs\Haberles\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Haberles\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('back/productos/...', Array, true)
+#4 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(138): view('back/productos/...')
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->eliminados()
+#6 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#7 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-02 09:26:47 --> Class "App\Controllers\Categoria_model" not found
+#0 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->nuevo()
+#1 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#2 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-02 09:30:24 --> Class "App\Controllers\Categoria_model" not found
+#0 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->nuevo()
+#1 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#2 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-02 09:37:07 --> Class "App\Controllers\Categoria_model" not found
+#0 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->nuevo()
+#1 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#2 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-02 09:37:50 --> Undefined variable $dato_categoria
+#0 C:\xampp\htdocs\Haberles\app\Views\back\productos\nuevo.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 77)
+#1 C:\xampp\htdocs\Haberles\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Haberles\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('back/productos/...', Array, true)
+#4 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(33): view('back/productos/...')
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->nuevo()
+#6 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#7 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-02 09:38:10 --> Undefined variable $dato_categoria
+#0 C:\xampp\htdocs\Haberles\app\Views\back\productos\nuevo.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 77)
+#1 C:\xampp\htdocs\Haberles\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Haberles\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('back/productos/...', Array, true)
+#4 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(33): view('back/productos/...')
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->nuevo()
+#6 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#7 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-02 09:38:10 --> Undefined variable $dato_categoria
+#0 C:\xampp\htdocs\Haberles\app\Views\back\productos\nuevo.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 77)
+#1 C:\xampp\htdocs\Haberles\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Haberles\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('back/productos/...', Array, true)
+#4 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(33): view('back/productos/...')
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->nuevo()
+#6 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#7 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-02 09:38:10 --> Undefined variable $dato_categoria
+#0 C:\xampp\htdocs\Haberles\app\Views\back\productos\nuevo.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 77)
+#1 C:\xampp\htdocs\Haberles\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Haberles\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('back/productos/...', Array, true)
+#4 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(33): view('back/productos/...')
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->nuevo()
+#6 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#7 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-02 09:38:10 --> Undefined variable $dato_categoria
+#0 C:\xampp\htdocs\Haberles\app\Views\back\productos\nuevo.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 77)
+#1 C:\xampp\htdocs\Haberles\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Haberles\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('back/productos/...', Array, true)
+#4 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(33): view('back/productos/...')
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->nuevo()
+#6 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#7 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-02 09:38:10 --> Undefined variable $dato_categoria
+#0 C:\xampp\htdocs\Haberles\app\Views\back\productos\nuevo.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 77)
+#1 C:\xampp\htdocs\Haberles\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Haberles\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('back/productos/...', Array, true)
+#4 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(33): view('back/productos/...')
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->nuevo()
+#6 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#7 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-02 09:38:10 --> Undefined variable $dato_categoria
+#0 C:\xampp\htdocs\Haberles\app\Views\back\productos\nuevo.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 77)
+#1 C:\xampp\htdocs\Haberles\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Haberles\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('back/productos/...', Array, true)
+#4 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(33): view('back/productos/...')
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->nuevo()
+#6 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#7 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-02 09:38:10 --> Undefined variable $dato_categoria
+#0 C:\xampp\htdocs\Haberles\app\Views\back\productos\nuevo.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 77)
+#1 C:\xampp\htdocs\Haberles\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Haberles\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('back/productos/...', Array, true)
+#4 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(33): view('back/productos/...')
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->nuevo()
+#6 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#7 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-02 09:38:10 --> Undefined variable $dato_categoria
+#0 C:\xampp\htdocs\Haberles\app\Views\back\productos\nuevo.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 77)
+#1 C:\xampp\htdocs\Haberles\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Haberles\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('back/productos/...', Array, true)
+#4 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(33): view('back/productos/...')
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->nuevo()
+#6 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#7 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-02 09:38:16 --> Undefined variable $dato_categoria
+#0 C:\xampp\htdocs\Haberles\app\Views\back\productos\nuevo.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 77)
+#1 C:\xampp\htdocs\Haberles\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Haberles\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('back/productos/...', Array, true)
+#4 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(33): view('back/productos/...')
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->nuevo()
+#6 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#7 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-02 09:38:17 --> Undefined variable $dato_categoria
+#0 C:\xampp\htdocs\Haberles\app\Views\back\productos\nuevo.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 77)
+#1 C:\xampp\htdocs\Haberles\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Haberles\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('back/productos/...', Array, true)
+#4 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(33): view('back/productos/...')
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->nuevo()
+#6 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#7 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-02 09:38:26 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\Haberles\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(44): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->insertar()
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#4 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-02 09:38:30 --> Undefined array key "categoria_producto"
+#0 C:\xampp\htdocs\Haberles\app\Views\back\productos\eliminados.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 31)
+#1 C:\xampp\htdocs\Haberles\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Haberles\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('back/productos/...', Array, true)
+#4 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(138): view('back/productos/...')
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->eliminados()
+#6 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#7 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-02 09:38:34 --> Undefined array key "categoria_producto"
+#0 C:\xampp\htdocs\Haberles\app\Views\back\productos\eliminados.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 31)
+#1 C:\xampp\htdocs\Haberles\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Haberles\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Haberles\system\Common.php(1089): CodeIgniter\View\View->render('back/productos/...', Array, true)
+#4 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(138): view('back/productos/...')
+#5 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->eliminados()
+#6 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#7 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-02 09:39:27 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\Haberles\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\Haberles\app\Controllers\Productos_controller.php(44): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(832): App\Controllers\Productos_Controller->insertar()
+#3 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos_Controller))
+#4 C:\xampp\htdocs\Haberles\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Haberles\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
